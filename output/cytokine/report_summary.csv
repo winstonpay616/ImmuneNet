@@ -1,0 +1,2 @@
+n_nodes,n_edges,is_directed,density,n_components_undirected,giant_component_size,giant_component_frac,degree_assortativity,avg_clustering,avg_path_length_giant,diameter_giant,n_communities_greedy,modularity_greedy
+339,671,False,0.01171213628667679,4,331,0.976401179941003,-0.3077739873392534,8.310743156183927e-05,263.63872562482834,10,15,0.7792955184656865
