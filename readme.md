@@ -1,6 +1,6 @@
 # ImmuneNet
 
-ImmuneNet builds and analyzes immune interaction networks from an InnateDB MITAB dataset. The pipeline converts raw MITAB interactions into a cleaned edge list, derives cytokine- and receptor-centered subnetworks, computes network metrics/communities, and generates summary figures and Gephi exports files.
+ImmuneNet builds and analyzes immune interaction networks from an InnateDB MITAB dataset. The pipeline converts raw MITAB interactions into a cleaned edge list, derives cytokine- and receptor-centered subnetworks, computes network metrics/communities, and generates summary figures and Gephi export files.
 
 The core behavior is the following: start from curated human–human interactions, infer coarse node types (cytokine, receptor, protein), and analyze immune-specific subnetworks.
 
@@ -56,7 +56,6 @@ python3 make_figures.py
 - **Input MITAB file**: update `MITAB_PATH` in `convert_to_edgelist.py` if you replace the dataset.
 - **Choose subnetwork to analyze** (in `analyze_network.py`):
   - Set `OUTPUT_DIR` to `output/cytokine` or `output/receptor`
-  - Set `EDGES_FILE` / `NODES_FILE` to the matching `data/edges_*.csv` and `data/nodes_*.csv`
 - **Match figure generation** (in `make_figures.py`):
   - Set `BASE_DIR` to the same output dir used in `analyze_network.py`.
 
