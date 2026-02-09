@@ -1,6 +1,6 @@
 # ImmuneNet
 
-ImmuneNet builds and analyzes immune interaction networks from an InnateDB MITAB dump. The pipeline converts raw MITAB interactions into a cleaned edge list, derives cytokine- and receptor-centered subnetworks, computes network metrics/communities, and generates summary figures and Gephi exports files.
+ImmuneNet builds and analyzes immune interaction networks from an InnateDB MITAB dataset. The pipeline converts raw MITAB interactions into a cleaned edge list, derives cytokine- and receptor-centered subnetworks, computes network metrics/communities, and generates summary figures and Gephi exports files.
 
 The core behavior is the following: start from curated human–human interactions, infer coarse node types (cytokine, receptor, protein), and analyze immune-specific subnetworks.
 
